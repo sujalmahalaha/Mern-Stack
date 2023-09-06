@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Task-2</title>
+
+    <style>
+        .left {
+            display: inline-block;
+            left: 20%;
+            margin-top: 120px;
+            margin-left: 142px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .left ul {
+            border: solid black;
+            padding: 15px;
+            width: 275px;
+        }
+
+        .left li {
+            padding: 20px;
+            color: blue;
+            font-size: xx-large;
+        }
+
+        .right {
+            margin-left: 772px;
+            margin-top: -290px;
+            margin-right: 200px;
+        }
+
+        .right ul {
+            display: flex;
+            border: solid black;
+            padding: 7px;
+            width: 462px;
+            height: 55px;
+        }
+
+        .right li {
+            font-size: xx-large;
+            padding: 10px;
+
+        }
+
+        #hom {
+            background-color: rgb(219, 166, 5);
+            color: white;
+        }
+
+        .sub {
+            background-color: rgb(157, 224, 247);
+        }
+
+        #home {
+            background-color: gray;
+            border-right: solid blue;
+            color: white;
+        }
+
+        .su {
+            background-color: rgb(229, 227, 227);
+            color: blue;
+            border-right: solid blue;
+        }
+
+        #em {
+            background-color: rgb(229, 227, 227);
+            width: 320px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+
+        <h3>Verical Navigation Bar</h3>
+        <ul type="none">
+            <li id="hom">Home</li>
+            <li class="sub">Java</li>
+            <li class="sub">CSS</li>
+            <li class="sub">HTML</li>
+            <li class="sub">Bootstrap</li>
+        </ul>
+    </div>
+
+    <div class="right">
+
+        <h3>Horizontal Navigation Bar</h3>
+        <ul type="none">
+            <li id="home">Home</li>
+            <li class="su">Java</li>
+            <li class="su">HTML</li>
+            <li class="su">CSS</li>
+            <li id="em"> </li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

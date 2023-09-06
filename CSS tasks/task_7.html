@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/CSS tasks/styles/style_7.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <main>
+        <form action="/register" method="post">
+            <h2></h2>
+            <div>
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="">
+            </div>
+            <div>
+                <label for="number">Phone Number:</label>
+                <input type="number" id="number" name="number" placeholder="">
+            </div>
+            <div>
+                <label class="gen" for="gender">Gender:</label>
+                <div class="col1">
+                    <div class="col11">
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                    </div>
+                    <div class="col11">
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                    </div>
+                    <div class="col11">
+                        <label for="female">Other:</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                    </div>
+                </div>
+            </div>
+            <div class="gen">
+                <label for="lang">Language:</label>
+                <select name="lang">
+                    <option>Select language</option>
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Marathi</option>
+                    <option>Malayalam</option>
+                </select>
+            </div>
+            <div>
+                <label for="number">Zip Code:</label>
+                <input type="number" id="number" name="number" placeholder="">
+            </div>
+            <div>
+                <label for="about">About:</label>
+                <textarea type="text" id="about" name="about" placeholder="Write about yourself..." cols="33" rows="3"></textarea>
+            </div>
+            <button>Register</button>
+        </form>
+    </main>
+</body>
+
+</html>

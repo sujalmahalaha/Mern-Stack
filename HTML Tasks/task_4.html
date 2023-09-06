@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_4</title>
+
+    <style>
+        form {
+            width: 60%;
+            margin: 0 auto;
+            font-family: Helvetica;
+        }
+
+        div{
+            display: flex;
+            justify-content: space-between;
+            padding: 2px;
+        }
+        .gen{
+            width: 63%;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 50%;
+            padding: 10px;
+        }
+        select{
+            width: 30%;
+        }
+
+        input[type="submit"] {
+            background-color: #008CBA;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/register" method="post">
+        <h2></h2>
+        <div>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Your full name">
+        </div>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Your username">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Your password">
+        </div>
+        <div>
+            <label for="repassword">Re-enter Password:</label>
+            <input type="password" id="repassword" name="repassword" placeholder="Re-enter your password">
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Your address">
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Your age">
+        </div>
+        <div class="gen">
+            <label for="gender">Gender:</label>
+            <select name="country" >
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+        <button>Save</button>
+    </form>
+
+</body>
+
+</html>
